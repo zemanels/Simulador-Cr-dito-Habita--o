@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest simulador-credito-habitacao -- --template react)",
+      "Bash(npm install recharts date-fns)",
+      "Bash(npm install -D tailwindcss@3 postcss autoprefixer)",
+      "Bash(npx tailwindcss init -p)",
+      "Bash(npm run build)",
+      "Bash(cmd /c \"dir /b \"\"c:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais\\\\Simulador Crédito Habitação\\\\simulador-credito-habitacao\\\\src\"\"\")",
+      "Bash(cmd /c \"cd /d \"\"c:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais\\\\Simulador Crédito Habitação\\\\simulador-credito-habitacao\"\" && dir /b /s src\\\\constants\")",
+      "Bash(cmd /c \"cd /d \"\"c:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais\\\\Simulador Credito Habitacao\\\\simulador-credito-habitacao\"\" && dir src\\\\constants\")",
+      "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais\\\\Simulador Crédito Habitação\\\\simulador-credito-habitacao\\\\src\\\\constants''\")",
+      "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais'' | Select-Object Name\")",
+      "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais\\\\Simulador Cr*\\\\simulador-credito-habitacao\\\\src'' | Select-Object Name\")"
+    ]
+  }
+}

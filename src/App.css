@@ -1,0 +1,4 @@
+/* App.css — estilos globais mínimos, Tailwind trata do resto */
+#root {
+  min-height: 100vh;
+}
