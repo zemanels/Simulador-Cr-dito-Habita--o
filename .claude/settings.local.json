@@ -17,7 +17,10 @@
       "Bash(gh auth *)",
       "Bash(gh api *)",
       "Bash(gh repo *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh run *)"
     ]
   }
 }
