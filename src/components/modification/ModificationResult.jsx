@@ -147,7 +147,7 @@ function ComparisonTable({ result }) {
               <th className="py-3 px-6 text-right text-[11px] font-bold text-gray-400 uppercase tracking-wider">Situação Atual</th>
               <th className="py-3 px-6 text-right text-[11px] font-bold text-gray-400 uppercase tracking-wider">
                 Após Modificação
-                <span className="ml-2 text-[9px] bg-bpi-primary/10 text-bpi-primary px-1.5 py-0.5 rounded-full font-bold normal-case">novo</span>
+                <span className="ml-2 text-[9px] bg-brand-primary/10 text-brand-primary px-1.5 py-0.5 rounded-full font-bold normal-case">novo</span>
               </th>
             </tr>
           </thead>

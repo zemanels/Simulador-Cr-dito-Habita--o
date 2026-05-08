@@ -10,7 +10,7 @@ export default function EuriborSelector({ value, onChange }) {
             key={opt.value}
             className={`flex-1 flex items-center justify-center gap-1 px-2 py-2 rounded-lg border cursor-pointer text-xs font-semibold transition-all duration-200 ${
               value === opt.value
-                ? 'border-bpi-medium bg-bpi-light text-bpi-primary'
+                ? 'border-brand-medium bg-brand-light text-brand-primary'
                 : 'border-gray-200 text-gray-500 hover:border-gray-300 bg-white'
             }`}
           >

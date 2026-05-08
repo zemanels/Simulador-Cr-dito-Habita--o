@@ -2,7 +2,7 @@ import { formatCurrency, formatPercent } from '../../utils/formatters';
 
 function Metric({ label, value, sub, highlight, className = '', size = 'normal' }) {
   return (
-    <div className={`metric-card ${highlight ? 'bg-bpi-primary border-bpi-primary' : ''} ${className}`}>
+    <div className={`metric-card ${highlight ? 'bg-brand-primary border-brand-primary' : ''} ${className}`}>
       <p className={`text-[10px] font-bold uppercase tracking-wider mb-2 ${highlight ? 'text-white/60' : 'text-gray-400'}`}>
         {label}
       </p>

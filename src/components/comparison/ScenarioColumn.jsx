@@ -37,14 +37,14 @@ export default function ScenarioColumn({ scenarioId, isBest }) {
               onChange={e => setDraft(e.target.value)}
               onBlur={commitEdit}
               onKeyDown={e => { if (e.key === 'Enter') commitEdit(); if (e.key === 'Escape') setEditing(false); }}
-              className="text-sm font-bold text-gray-800 border-b border-bpi-primary outline-none bg-transparent w-full max-w-[160px]"
+              className="text-sm font-bold text-gray-800 border-b border-brand-primary outline-none bg-transparent w-full max-w-[160px]"
               maxLength={30}
             />
           ) : (
             <button
               type="button"
               onClick={startEdit}
-              className="text-sm font-bold text-gray-800 hover:text-bpi-primary transition-colors text-left truncate"
+              className="text-sm font-bold text-gray-800 hover:text-brand-primary transition-colors text-left truncate"
               title="Clique para editar nome"
             >
               {scenario.label}

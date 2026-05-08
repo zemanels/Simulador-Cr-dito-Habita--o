@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        bpi: {
+        brand: {
           primary: '#003087',
           dark: '#001f5e',
           medium: '#0055A5',

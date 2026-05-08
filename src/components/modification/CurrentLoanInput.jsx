@@ -158,7 +158,7 @@ export default function CurrentLoanInput({ errors }) {
             onClick={() => onChange('inputMethod', opt.value)}
             className={`flex-1 py-2 px-2 rounded-lg text-xs font-semibold transition-all duration-200 ${
               data.inputMethod === opt.value
-                ? 'bg-white text-bpi-primary shadow-sm border border-gray-200'
+                ? 'bg-white text-brand-primary shadow-sm border border-gray-200'
                 : 'text-gray-500 hover:text-gray-700'
             }`}
           >
@@ -222,11 +222,11 @@ export default function CurrentLoanInput({ errors }) {
               />
             </div>
             {derivedState && (
-              <div className="bg-bpi-light border border-bpi-medium/30 rounded-xl p-3 text-xs text-bpi-primary">
+              <div className="bg-brand-light border border-brand-medium/30 rounded-xl p-3 text-xs text-brand-primary">
                 <p className="font-bold mb-1">Estimativa calculada</p>
                 <p>Capital em dívida: <strong>{formatCurrency(derivedState.capitalEmDivida)}</strong></p>
                 <p>Prazo restante: <strong>{derivedState.prazoRestante} meses ({(derivedState.prazoRestante / 12).toFixed(1)} anos)</strong></p>
-                <p className="text-bpi-primary/50 mt-1.5">Baseado em prazo de 40 anos.</p>
+                <p className="text-brand-primary/50 mt-1.5">Baseado em prazo de 40 anos.</p>
               </div>
             )}
           </div>

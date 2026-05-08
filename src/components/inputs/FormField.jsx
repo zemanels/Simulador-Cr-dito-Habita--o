@@ -17,7 +17,7 @@ export default function FormField({
     <div>
       <label className="input-label" htmlFor={name}>
         {label}
-        {required && <span className="text-bpi-accent ml-0.5">*</span>}
+        {required && <span className="text-brand-accent ml-0.5">*</span>}
       </label>
       <div className="relative">
         <input

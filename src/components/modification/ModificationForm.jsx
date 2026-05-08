@@ -102,7 +102,7 @@ function AmortizacaoFields({ data, errors, onChange }) {
               onClick={() => onChange('opcaoAmortizacao', opt.value)}
               className={`flex-1 py-2.5 px-2 rounded-lg text-center transition-all duration-200 ${
                 data.opcaoAmortizacao === opt.value
-                  ? 'bg-white text-bpi-primary shadow-sm border border-gray-200'
+                  ? 'bg-white text-brand-primary shadow-sm border border-gray-200'
                   : 'text-gray-500 hover:text-gray-700'
               }`}
             >
@@ -165,12 +165,12 @@ export default function ModificationForm() {
             onClick={() => onChange('tipoModificacao', type.value)}
             className={`p-3 rounded-xl border-2 text-left transition-all duration-200 ${
               data.tipoModificacao === type.value
-                ? 'border-bpi-medium bg-bpi-light'
+                ? 'border-brand-medium bg-brand-light'
                 : 'border-gray-200 hover:border-gray-300 bg-white'
             }`}
           >
             <div className="text-lg mb-1">{type.icon}</div>
-            <p className={`text-xs font-bold leading-tight ${data.tipoModificacao === type.value ? 'text-bpi-primary' : 'text-gray-700'}`}>
+            <p className={`text-xs font-bold leading-tight ${data.tipoModificacao === type.value ? 'text-brand-primary' : 'text-gray-700'}`}>
               {type.label}
             </p>
             <p className="text-[10px] text-gray-400 mt-0.5 leading-tight">{type.desc}</p>

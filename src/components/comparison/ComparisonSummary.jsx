@@ -53,7 +53,7 @@ export default function ComparisonSummary() {
                     )}
                   </td>
                   <td className="py-3 px-4 text-right text-gray-700 tabular-nums">{formatCurrency(s.result.prestacaoMensal)}</td>
-                  <td className="py-3 px-4 text-right font-bold text-bpi-primary tabular-nums">{formatCurrency(s.result.totalMensal)}</td>
+                  <td className="py-3 px-4 text-right font-bold text-brand-primary tabular-nums">{formatCurrency(s.result.totalMensal)}</td>
                   <td className="py-3 px-4 text-right text-red-500 tabular-nums">{formatCurrency(s.result.totalInterest)}</td>
                   <td className="py-3 px-4 text-right text-gray-600 tabular-nums hidden sm:table-cell">{formatCurrency(s.result.totalPaidComSeguros)}</td>
                   <td className="py-3 px-4 text-right text-gray-500 tabular-nums hidden md:table-cell">{s.result.taeg?.toFixed(3)}%</td>

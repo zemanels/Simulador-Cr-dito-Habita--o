@@ -21,7 +21,7 @@ export default function ModeToggle() {
               flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold
               transition-all duration-200 whitespace-nowrap
               ${active
-                ? 'bg-white text-bpi-primary shadow-md'
+                ? 'bg-white text-brand-primary shadow-md'
                 : 'text-white/70 hover:text-white hover:bg-white/10'
               }
             `}

@@ -58,7 +58,7 @@ export default function AmortizationTable({ table }) {
               onClick={() => { setPageSize(opt); setPage(0); }}
               className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors ${
                 pageSize === opt
-                  ? 'bg-bpi-primary text-white'
+                  ? 'bg-brand-primary text-white'
                   : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
               }`}
             >

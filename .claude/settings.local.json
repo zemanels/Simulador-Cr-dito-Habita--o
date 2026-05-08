@@ -11,7 +11,13 @@
       "Bash(cmd /c \"cd /d \"\"c:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais\\\\Simulador Credito Habitacao\\\\simulador-credito-habitacao\"\" && dir src\\\\constants\")",
       "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais\\\\Simulador Crédito Habitação\\\\simulador-credito-habitacao\\\\src\\\\constants''\")",
       "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais'' | Select-Object Name\")",
-      "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais\\\\Simulador Cr*\\\\simulador-credito-habitacao\\\\src'' | Select-Object Name\")"
+      "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Users\\\\josem\\\\Desktop\\\\Ficheiros Pessoais\\\\Simulador Cr*\\\\simulador-credito-habitacao\\\\src'' | Select-Object Name\")",
+      "PowerShell($files = @\\('src\\\\index.css','src\\\\components\\\\inputs\\\\EuriborSelector.jsx','src\\\\components\\\\inputs\\\\RateTypeSelector.jsx','src\\\\components\\\\inputs\\\\FormField.jsx','src\\\\components\\\\layout\\\\ModeToggle.jsx','src\\\\components\\\\comparison\\\\ScenarioColumn.jsx','src\\\\components\\\\comparison\\\\ComparisonSummary.jsx','src\\\\components\\\\modification\\\\ModificationForm.jsx','src\\\\components\\\\modification\\\\CurrentLoanInput.jsx','src\\\\components\\\\modification\\\\ModificationResult.jsx','src\\\\components\\\\results\\\\AmortizationTable.jsx','src\\\\components\\\\results\\\\SummaryMetrics.jsx'\\); foreach \\($f in $files\\) { $c = Get-Content $f -Raw -Encoding UTF8; $c = $c -replace 'bpi-','brand-'; Set-Content -Path $f -Value $c -Encoding UTF8 -NoNewline }; Write-Output \"done\")",
+      "PowerShell($f = 'src\\\\index.css'; $bytes = [System.IO.File]::ReadAllBytes\\($f\\); \"First 3 bytes: $\\($bytes[0]\\) $\\($bytes[1]\\) $\\($bytes[2]\\)\")",
+      "Bash(gh auth *)",
+      "Bash(gh api *)",
+      "Bash(gh repo *)",
+      "Bash(git add *)"
     ]
   }
 }
